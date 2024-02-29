@@ -25,10 +25,6 @@ const recipeSchema = new Schema({
         }]],
         required: true
     },
-    // ingredients:{
-    //     type: [[String]],
-    //     required: true
-    // },
     instructions:{
         type:String,
         required: true
